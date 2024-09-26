@@ -1,0 +1,76 @@
+img[alt]{
+    border: 5px solid blue;
+}
+img[src="img/logo.png"]{
+    width: 400px;
+}
+img[src^="img/"]{ /*busca al inicio*/
+    width: 150px;
+}
+img[src$=".png"]{ /*busca al final*/
+    width: 250px;
+}
+img[src*="mg/"]{ /*busca en toda la cadena*/
+    width: 1000px;
+}
+/* equivaltente a:
+.resaltado
+.ingles
+.archivo
+ */
+article[class~="resaltado"]{
+    border: 1px dashed blue;
+} 
+article[class~="ingles"]{
+    border: 1px dashed red;
+}
+article[class~="archivo"]{
+    border: 1px dashed green;
+}
+
+article[class|="ingles"]{
+    text-align: center;
+}
+
+div > p{  
+    color: blue;  
+}
+div p{
+    color: red;
+}
+/* toma solo el primero */
+h2 + p{
+    color: gray;
+}
+/* toma todos */
+h2 ~ p{
+    color: green;
+}
+
+#resumen,#experimento,#pruebas,#resultados,#conclusiones{
+    color: red;
+}
+section:not(#referencias){
+    color: blue;
+}
+
+li:nth-child(odd){  /*impar*/
+    color: green;
+}
+
+li:nth-child(even){  /*pares*/
+    color: blue;
+}
+
+li:nth-child(5){   /*quinto*/
+    color: red;
+}
+
+li:nth-last-child(1){  /*ultimo*/
+    color: purple;
+}
+
+p:first-line{
+    color: red;
+    font-weight: bold;
+}
