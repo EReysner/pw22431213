@@ -1,0 +1,111 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background: white;
+    margin: 0px auto;
+    max-width: 1150px;
+}
+header article{
+    padding: 30px;
+}
+header nav ul{
+    margin-left: -20px;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 15px ;
+}
+.sec1{
+    margin-top: -80px;
+}
+.img1{
+    width: 60px;
+    top: -10px;
+    left: 790px;
+    position: relative;
+}
+.img2{
+    width: 200px;
+    top: -70px;
+    left: 790px;
+    position: relative;
+}
+.img3{
+    width: 30px;
+    top: -155px;
+    left: 760px;
+    position: relative;
+}
+.img4{
+    width: 35px;
+    top: -155px;
+    left: 760px;
+    position: relative;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 640px 1fr;
+}
+.sec2art1{
+    margin-left: 30px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.sec2art2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.text1{
+    font-size: 1.05em;
+}
+.vid1{
+    width: 285px;
+}
+.vid2{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 285px;
+}
+.bike{
+    width: 415px;
+    left: 30px;
+    position: relative;
+}
+.years{
+    width: 150px;
+    position: relative;
+    top: -100px;
+}
+.fotart1{
+    margin-left: 20px;
+    font-size: 1.1em;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+}
+.mov{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    vertical-align: top;
+    width: 13.5%;
+}
+.last{
+    width: 23%;
+}
+.dashed{
+    border-style: dashed;
+}
+.nito{
+    font-weight: bold;
+}
+.gris{
+    color: gray;
+}
+.verde{
+    color: #73f33d;
+}
+.letra-grande{
+    font-size: 4.6em;
+}
