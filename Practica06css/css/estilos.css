@@ -1,0 +1,114 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 950px;
+}
+.header{
+    background: black;
+    color: white;
+    grid-area: header;
+    padding: 10px 0px;
+    text-align: left;
+    font-size: 0.8em;
+}
+.header img{
+    width: 30px;
+    margin-top: -5px;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.header input{
+    margin-left: 470px;
+    margin-right: -465px;
+    border-radius: 5px;
+    padding: 6px;
+    color: whitesmoke;
+}
+.subm{
+    background: #2c2c2c;
+    border-color: gray;
+    width: 125px;
+}
+.sign{
+    width: 80px;
+    background: #603cf3;
+}
+.principal{
+    background: lavender;
+    padding: 80px 0px;
+    text-align: center;
+    font-size: 2.6em;
+}
+.search{
+    border-radius: 3px;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 3px 0px;
+}
+.flecha{
+    width: 30px;
+    padding: 5px;
+    border: none;
+    background: white;
+    margin-left: -42px;
+    margin-top: 16px;
+}
+.medio{
+    display: grid;
+    padding: 40px 100px;
+    gap: 5px;
+    grid-template-columns:  repeat(2,minmax(150px,1fr));
+    font-size: 0.9em;
+}
+.medio article{
+    display: grid;
+    grid-template-columns: 80px 265px;
+    margin-top: 30px;
+}
+.medio article article{
+    display: inline-table;
+    text-align: left;
+    width: 100%;
+    
+}
+.medio img{
+    text-align: left;
+    width: 60px;
+    margin-top: 50px;
+}
+.abajo{
+    background: black;
+    color: white;
+    display: grid;
+    padding: 20px 0px;
+    gap: 5px;
+    grid-template-columns: repeat(5,minmax(20px,1fr));
+    text-align: left;
+    padding: 20px;
+}
+.abajo article{
+    margin-left: 20px;
+}
+.abajo img{
+    width: 40px;
+    margin-left: -7px;
+    margin-top: 100px;
+    text-align: bottom;
+}
+.azul{
+    color: #603cf3;
+    font-size: 0.9em;
+}
+.negro{
+    font-weight: bold;
+    font-size: 1em;
+}
+.gris{
+    color: lightgrey;
+    font-size: 0.7em;
+}
+.chica{
+    font-size: 0.7em;
+}
